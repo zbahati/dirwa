@@ -18,8 +18,8 @@ const Contact = () => {
               <input className=' outline-none h-10 rounded px-3' type="text" name="names" required />
             </div>
             <div className="flex flex-col mx-auto gap-3 md:w-2/3 ">
-              <p className='text-xl font-semibold pt-2 text-gray-400'>Names</p>
-              <input className=' outline-none h-10 rounded px-3' type="text" name="names" required />
+              <p className='text-xl font-semibold pt-2 text-gray-400'>Email</p>
+              <input className=' outline-none h-10 rounded px-3' type="email" name="email" required />
             </div>
             <div className="flex flex-col mx-auto gap-3 md:w-2/3 ">
               <p className='text-xl font-semibold pt-2 text-gray-400'>Message</p>

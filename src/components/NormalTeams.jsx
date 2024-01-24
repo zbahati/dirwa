@@ -3,7 +3,7 @@ import teams from "./TeamsData";
 const Teams = () => {
   return (
     <div className="">
-      <h1 className="text-2xl py-4 mt-5">Staff</h1>
+      <h1 className="text-2xl py-4 mt-5">Board Members</h1>
       <div className="grid grid-cols-1 bg-black/5 shadow-md my-2 rounded-md p-3 gap-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {teams.map((member) => (
           <div
