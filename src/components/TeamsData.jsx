@@ -19,9 +19,9 @@ export const president = [
 const teams = [
   {
     id: 2,
-    img: busasamana,
-    name: 'SEWIPFURA Theophile',
-    title: 'Capacity building coordinator',
+    img: last,
+    name: 'BATAMURIZA Gertulde',
+    title: 'Executive Director',
   },
   {
     id: 3,
@@ -31,27 +31,28 @@ const teams = [
   },
   {
     id: 4,
+    img: zigama,
+    name: 'NZANYWAYIMANA Janvier',
+    title: ' Head of Finances and Administration',
+  },
+  {
+    id: 5,
+
     img: school,
     name: 'KAGAME Kaberuka Alain',
     title: 'Regional Coordinator',
   },
   {
-    id: 5,
+    id: 6,
     img: group,
     name: 'MUNEZERO Francine',
-    title: 'Psychosocial Care',
-  },
-  {
-    id: 6,
-    img: zigama,
-    name: 'NZANYWAYIMANA Janvier',
-    title: 'Executive Director',
+    title: 'Psychosocial Care Coordinator',
   },
   {
     id: 7,
-    img: last,
-    name: 'BATAMURIZA Gertulde ',
-    title: 'Community Development',
+    img: busasamana,
+    name: 'SEWIPFURA Theophile',
+    title: 'Capacity building coordinator',
   },
 ];
 

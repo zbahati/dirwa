@@ -87,7 +87,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <div className='flex gap-2 items-center'>
             <img src={logo} alt="logo" className="h-28 w-28" />
-            <h1 className='hidden md:text-2xl md:inline lg:text-3xl capitalize'>Duhumurizanye Iwacu Rwanda</h1>
+            <h1 className='hidden md:text-2xl md:inline lg:text-3xl capitalize font-semibold text-blue-500'>Duhumurizanye Iwacu Rwanda</h1>
           </div>
           <button
             type="button"
@@ -98,11 +98,11 @@ const Navbar = () => {
           }
         </div>
         <nav>
-          <ul className={nav ? 'flex flex-col text-xl gap-9 h-screen absolute w-full duration-300 top-0 bottom-0 left-0 bg-blue-400 pt-3 z-20 px-2 rounded-md' : 'hidden sm:flex sm:justify-between sm:items-center sm:border-2 sm:p-2'}>
+          <ul className={nav ? 'flex flex-col text-xl gap-9 h-screen absolute w-full duration-300 text-black font-semibold top-0 bottom-0 left-0 bg-blue-400 pt-3 z-20 px-2 rounded-md' : 'hidden sm:flex sm:justify-between sm:items-center bg-[#4495cd] md:py-6 text-black text-xl font-semibold sm:border-2 sm:p-2'}>
             <li className='cursor-pointer' onClick={handleAboutUs}>
               <Link to="" className={clickAboutUs ? 'underline underline-offset-8' : ''}>About us</Link>
             </li>
-            <li onClick={handleParticipation} className={`relative cursor-pointer ${clickParticipation ? 'underline underline-offset-8' : ''}`}>
+            <li onClick={handleParticipation} className={`relative cursor-pointer text-black ${clickParticipation ? 'underline underline-offset-8' : ''}`}>
               <span>Participants</span>
               <ul className={clickParticipation ? ' bg-slate-300 w-64 absolute py-2 my-4 z-10 underline underline-offset-8 border-2' : 'hidden'}>
                 <li className='hover:bg-slate-50 py-2'>
