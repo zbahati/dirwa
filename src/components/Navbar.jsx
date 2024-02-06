@@ -132,18 +132,18 @@ const Navbar = () => {
                 <li className='hover:bg-slate-50 py-2'>
                   <Link to="/Healing" onClick={handleHideSidebar} className='my-4 mx-3'>Healing and Peace Building</Link>
                 </li>
-                <li className='hover:bg-slate-50 py-2'>
+                {/* <li className='hover:bg-slate-50 py-2'>
                   <Link to="/Psycho_social_care" onClick={handleHideSidebar} className='my-4 mx-3'>Psycho-social Care</Link>
-                </li>
+                </li> */}
                 <li className='hover:bg-slate-50 py-2'>
                   <Link to="/Asset_base_community" onClick={handleHideSidebar} className='my-4 mx-3'>Asset Base Community Development</Link>
                 </li>
                 <li className='hover:bg-slate-50 py-2'>
                   <Link to="/Active_by_standship" onClick={handleHideSidebar} className='my-4 mx-3'>Active by Standship Development</Link>
                 </li>
-                <li className='hover:bg-slate-50 py-2'>
+                {/* <li className='hover:bg-slate-50 py-2'>
                   <Link to="/how_we_help" onClick={handleHideSidebar} className='my-4 mx-3'>How we help</Link>
-                </li>
+                </li> */}
               </ul>
             </li>
             <li onClick={handleWhereWeWork} className='cursor-pointer'>
