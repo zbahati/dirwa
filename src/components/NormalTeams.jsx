@@ -4,11 +4,11 @@ const Teams = () => {
   return (
     <div className="">
       <h1 className="text-2xl py-4 mt-5">Board Members</h1>
-      <div className="grid grid-cols-1 bg-black/5 shadow-md my-2 rounded-md p-3 gap-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      <div className="grid grid-cols-1 bg-black/5 shadow-md my-2 rounded-md p-3 gap-2 sm:grid-cols-2 md:grid-cols-3 lg:gap-6 lg:grid-cols-3">
         {teams.map((member) => (
           <div
             key={member.id}
-            className="cursor-pointer hover:scale-95 duration-300 border-[1px] shadow-xl grid place-items-center p-2 rounded-xl"
+            className="cursor-pointer hover:scale-105 border-[1px] shadow-2xl grid place-items-center p-2 rounded-xl"
           >
             <div className="">
               <img
