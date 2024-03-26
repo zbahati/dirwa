@@ -9,25 +9,25 @@ const stories = [
   {
     id: 1,
     img: soccer_fan,
-    title: 'Duhumurizanye soccer',
+    title: 'DUMURURIZANYE SOCCER...',
     descrption: "Experience the power of compassion through Duhumurizanye Soccer. Join us on a journey where our NGO, Duhumurizanye, used the beautiful game of soccer to make a positive impact on communities in need. Discover how the love for the sport brought people together and helped us extend a helping hand to those who needed it most. Together, we kicked off change and scored big on hope and unity!",
   },
   {
     id: 2,
     img: busasamana,
-    title: 'Busasamana helping event',
+    title: 'BUSASAMANA HELPING EVENT...',
     descrption: "Join us for a heartwarming event in Busasamana where compassion and community come together. At our Busasamana Helping Event, we've rallied to make a meaningful difference in the lives of those in need. Witness the transformative power of kindness as we share love, support, and resources with our neighbors. Together, we're creating a brighter future, one act of generosity at a time.",
   },
   {
     id: 3,
     img: busasamana_child,
-    title: 'Power of child , Future we make',
+    title: 'FUTURE WE MAKE...',
     descrption: "Discover the incredible potential within every child and the impact they can have on the future. Our 'Power of Child, Future We Make' initiative is a celebration of young minds and their ability to shape tomorrow. Join us as we nurture and empower the next generation, unlocking their limitless potential and guiding them towards a brighter and more promising future. Together, we are crafting a world where every child's dreams can become a reality.",
   },
   {
     id: 4,
     img: school,
-    title: 'We share ideas with school at..',
+    title: 'WE SHARE IDEAS WITH ...',
     descrption: "Join us in our mission to inspire and educate. Through our 'We Share Ideas with School' program, we bridge the gap between knowledge and young minds. We believe in the power of collaboration and the exchange of innovative ideas. Together with schools, we're fostering a learning environment where creativity and inspiration thrive. Join us as we sow the seeds of knowledge and watch them flourish in the minds of our future leaders.",
   },
   {
