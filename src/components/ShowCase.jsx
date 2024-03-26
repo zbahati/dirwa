@@ -1,18 +1,36 @@
 const ShowCase = () => {
   return (
-    <div className="p-2 mx-auto">
+    <div className="p-2 mx-auto py-5">
       <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-2">
-        <div className="bg-white border-2 border-blue-500 mx-2 px-2 duration-300 hover:scale-105 hover:duration-300 shadow-md rounded-md my-2">
-          <h1 className="text-2xl md:text-3xl font-bold my-2">Mission</h1>
-          <p className="text-justify text-[18px] sm:text-[16px] py-1">Our mission is to facilitate participants through community based approaches aiming at socio-therapy networks establishment, socio-economic and leadership development.</p>
+        <div className="bg-white border-2 border-blue-300 mx-2 px-2 rounded-md my-2">
+          <h1 className="text-2xl md:text-3xl  my-2 font-semibold">Mission</h1>
+          <p className="text-justify text-[18px] sm:text-[16px] py-5">
+            Our mission is to empower individuals through community-based
+            approaches aimed at establishing socio-therapeutic networks and
+            fostering socio-economic and leadership development. We firmly
+            believe that the overall well-being of a society hinges on the
+            strength and resilience of its members. To achieve this goal, we
+            implement innovative programs that foster social inclusion, enhance
+            individual and collective skills, and encourage collaboration and
+            partnership within communities.
+          </p>
         </div>
-        <div className="bg-white border-2 mx-2 px-2 duration-300 shadow-lg border-blue-500 rounded-md my-2 hover:scale-105 hover:duration-300">
-          <h1 className="text-2xl md:text-3xl text-black font-bold my-2">Vission</h1>
-          <p className="text-justify text-[18px] sm:text-[16px] py-1">Our vision is to see communities integrally transformed and empowered towards the sustainable peace and development.</p>
+        <div className="bg-white border-2 mx-2 px-2 shadow-lg border-blue-300 rounded-md my-2">
+          <h1 className="text-2xl md:text-3xl text-black my-2 font-semibold">Vision</h1>
+          <p className="text-justify text-[18px] sm:text-[16px] py-5">
+            Our vision is to witness communities undergo integral transformation
+            and empowerment, leading towards sustainable peace and development.
+            We envision a future where every community is empowered to address
+            its challenges effectively, fostering harmonious relationships and
+            equitable opportunities for all. Through our initiatives, we strive
+            to cultivate environments where individuals are not only resilient
+            in the face of adversity but also actively engaged in shaping their
+            collective destinies.
+          </p>
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default ShowCase;
