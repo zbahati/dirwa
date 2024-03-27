@@ -119,25 +119,27 @@ const Navbar = () => {
           <ul
             className={
               nav
-                ? "flex flex-col text-xl gap-8 h-screen absolute w-full duration-300 text-black font-semibold top-0 bottom-0 left-0 bg-blue-500 pt-3 z-20 px-2 rounded-md"
+                ? "flex flex-col text-xl gap-10 h-screen absolute w-full duration-300 text-white px-10 pt-10 font-semibold top-0 bottom-0 left-0 bg-blue-400 z-20 rounded-md"
                 : "hidden sm:flex sm:justify-between sm:items-center bg-[#6daefd] md:py-2 text-white text-xl sm:border-2 sm:p-2"
             }
           >
             <li className="cursor-pointer" onClick={handleAboutUs}>
               <Link
                 to=""
-                className={clickAboutUs ? "underline underline-offset-8" : ""}
+                className={clickAboutUs ? "" : ""}
               >
                 ABOUT US
               </Link>
+              <hr className="border-b border-blue-100 mt-1" />
             </li>
             <li
               onClick={handleParticipation}
               className={`relative cursor-pointer ${
-                clickParticipation ? "underline underline-offset-8" : ""
+                clickParticipation ? "" : ""
               }`}
             >
               <span>PARTICIPANTS</span>
+              <hr className="border-b border-blue-100 mt-1" />
               <ul
                 className={
                   clickParticipation
@@ -174,11 +176,12 @@ const Navbar = () => {
             </li>
             <li
               className={`relative cursor-pointer ${
-                clickIntervention ? "underline underline-offset-8" : ""
+                clickIntervention ? "" : ""
               }`}
               onClick={handleIntervention}
             >
               <span>INTERVENTION</span>
+              <hr className="border-b border-blue-100 mt-1" />
               <ul
                 className={
                   clickIntervention
@@ -226,19 +229,21 @@ const Navbar = () => {
                 to="/Where_we_work"
                 onClick={handleHideSidebar}
                 className={
-                  clickWhereWeWork ? "underline underline-offset-8" : ""
+                  clickWhereWeWork ? "" : ""
                 }
               >
                 WHERE WE WORK
               </Link>
+              <hr className="border-b border-blue-100 mt-1" />
             </li>
             <li
               className={`cursor-pointer ${
-                clickPublication ? "underline underline-offset-8" : ""
+                clickPublication ? "" : ""
               }`}
               onClick={handlePublication}
             >
               <span>PUBLICATIONS</span>
+              <hr className="border-b border-blue-100 mt-1" />
               <ul
                 className={
                   clickPublication
@@ -265,11 +270,12 @@ const Navbar = () => {
             </li>
             <li
               className={`relative cursor-pointer ${
-                clickJoinUs ? "underline underline-offset-8" : ""
+                clickJoinUs ? "" : ""
               }`}
               onClick={handleJoinUs}
             >
               <span>JOIN US</span>
+              <hr className="border-b border-blue-100 mt-1" />
               <ul
                 className={
                   clickJoinUs && nav
