@@ -124,10 +124,7 @@ const Navbar = () => {
             }
           >
             <li className="cursor-pointer" onClick={handleAboutUs}>
-              <Link
-                to=""
-                className={clickAboutUs ? "" : ""}
-              >
+              <Link to="" className={clickAboutUs ? "" : ""}>
                 ABOUT US
               </Link>
               <hr className="border-b border-blue-100 mt-1" />
@@ -143,17 +140,17 @@ const Navbar = () => {
               <ul
                 className={
                   clickParticipation
-                    ? " bg-slate-300 w-64 absolute py-2 my-4 z-10 underline underline-offset-8 border-2"
+                    ? " bg-slate-100 hover:bg-slate-200 w-64 absolute py-2 my-4 z-10 underline underline-offset-8 text-black border-2"
                     : "hidden"
                 }
               >
-                <li className="hover:bg-slate-50 py-2">
-                  <Link to="" onClick={handleHideSidebar} className="mx-3">
+                <li className="py-2">
+                  <Link to="" onClick={handleHideSidebar} className="mx-2">
                     Youth
                   </Link>
                 </li>
-                <li className="hover:bg-slate-50 py-2">
-                  <Link to="" onClick={handleHideSidebar} className="my-4 mx-3">
+                <li className="hover:bg-slate-50 py-2 text-black">
+                  <Link to="" onClick={handleHideSidebar} className="my-4 mx-2">
                     Women
                   </Link>
                 </li>
@@ -185,7 +182,7 @@ const Navbar = () => {
               <ul
                 className={
                   clickIntervention
-                    ? " bg-slate-300 w-[340px] absolute py-2 my-4 z-10 underline underline-offset-8 border-2"
+                    ? " bg-slate-100 hover:bg-slate-200 w-64 absolute py-4 my-4 z-10 underline underline-offset-8 text-black border-2"
                     : "hidden"
                 }
               >
@@ -193,9 +190,9 @@ const Navbar = () => {
                   <Link
                     to="/Healing"
                     onClick={handleHideSidebar}
-                    className="my-4 mx-3"
+                    className="my-4"
                   >
-                    Healing and Peace Building
+                    Healing & Peace Building
                   </Link>
                 </li>
                 {/* <li className='hover:bg-slate-50 py-2'>
@@ -205,7 +202,7 @@ const Navbar = () => {
                   <Link
                     to="/Asset_base_community"
                     onClick={handleHideSidebar}
-                    className="my-4 mx-3"
+                    className="my-4"
                   >
                     Asset Base Community Development
                   </Link>
@@ -214,7 +211,7 @@ const Navbar = () => {
                   <Link
                     to="/Active_by_standship"
                     onClick={handleHideSidebar}
-                    className="my-4 mx-3"
+                    className="my-4"
                   >
                     Active by Standship Development
                   </Link>
@@ -228,18 +225,14 @@ const Navbar = () => {
               <Link
                 to="/Where_we_work"
                 onClick={handleHideSidebar}
-                className={
-                  clickWhereWeWork ? "" : ""
-                }
+                className={clickWhereWeWork ? "" : ""}
               >
                 WHERE WE WORK
               </Link>
               <hr className="border-b border-blue-100 mt-1" />
             </li>
             <li
-              className={`cursor-pointer ${
-                clickPublication ? "" : ""
-              }`}
+              className={`cursor-pointer ${clickPublication ? "" : ""}`}
               onClick={handlePublication}
             >
               <span>PUBLICATIONS</span>
@@ -247,31 +240,29 @@ const Navbar = () => {
               <ul
                 className={
                   clickPublication
-                    ? " bg-slate-300 w-64 absolute py-2 my-4 z-10 underline underline-offset-8 border-2"
+                    ? " bg-slate-100 hover:bg-slate-200 w-64 absolute py-2 my-4 z-10 underline underline-offset-8 text-black border-2"
                     : "hidden"
                 }
               >
                 <li className="hover:bg-slate-50 py-2">
-                  <Link to="" onClick={handleHideSidebar} className="my-4 mx-3">
+                  <Link to="" onClick={handleHideSidebar} className="my-4 mx-1">
                     News
                   </Link>
                 </li>
                 <li className="hover:bg-slate-50 py-2">
-                  <Link to="" onClick={handleHideSidebar} className="my-4 mx-3">
+                  <Link to="" onClick={handleHideSidebar} className="my-4 mx-1">
                     Stories
                   </Link>
                 </li>
                 <li className="hover:bg-slate-50 py-2">
-                  <Link to="" onClick={handleHideSidebar} className="my-4 mx-3">
+                  <Link to="" onClick={handleHideSidebar} className="my-4 mx-1">
                     Announcements
                   </Link>
                 </li>
               </ul>
             </li>
             <li
-              className={`relative cursor-pointer ${
-                clickJoinUs ? "" : ""
-              }`}
+              className={`relative cursor-pointer ${clickJoinUs ? "" : ""}`}
               onClick={handleJoinUs}
             >
               <span>JOIN US</span>
@@ -279,18 +270,18 @@ const Navbar = () => {
               <ul
                 className={
                   clickJoinUs && nav
-                    ? " bg-slate-300 absolute w-64 py-2 my-4 z-10 underline underline-offset-8 border-2"
+                    ? "absolute w-64 py-2 z-10 underline underline-offset-8 border-2  bg-slate-100 hover:bg-slate-200"
                     : clickJoinUs
-                    ? " bg-slate-300 absolute w-64 transform translate-x-[-200px] py-2 my-4 z-10 underline underline-offset-8 border-2"
+                    ? "absolute w-64 transform -translate-x-64 py-4 my-4 mx-20 z-10 underline underline-offset-8  bg-slate-100 text-black"
                     : "hidden"
                 }
               >
-                <li className="hover:bg-slate-50 py-2">
+                <li className="py-1 px-2  bg-slate-100 hover:bg-white">
                   <Link to="" onClick={handleHideSidebar}>
                     Volunteer
                   </Link>
                 </li>
-                <li className="hover:bg-slate-50 py-2">
+                <li className="py-2 px-2  bg-slate-100 hover:bg-white">
                   <Link to="" onClick={handleHideSidebar}>
                     Internship Program
                   </Link>
