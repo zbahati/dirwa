@@ -145,17 +145,17 @@ const Navbar = () => {
               <ul
                 className={
                   clickParticipation
-                    ? " bg-slate-100 hover:bg-slate-200 w-64 absolute py-2 my-4 z-10 underline underline-offset-8 text-black border-2"
+                    ? " bg-slate-100 hover:bg-slate-200 w-64 absolute py-2 my-4 z-10 underline underline-offset-8 text-black border-2 font-extralight"
                     : "hidden"
                 }
               >
                 <li className="py-2">
-                  <Link to="" onClick={handleHideSidebar} className="mx-2">
+                  <Link to="" onClick={handleHideSidebar} className="mx-3">
                     Youth
                   </Link>
                 </li>
                 <li className="hover:bg-slate-50 py-2 text-black">
-                  <Link to="" onClick={handleHideSidebar} className="my-4 mx-2">
+                  <Link to="" onClick={handleHideSidebar} className="my-4 mx-3">
                     Women
                   </Link>
                 </li>
@@ -177,7 +177,7 @@ const Navbar = () => {
               </ul>
             </li>
             <li
-              className={`relative cursor-pointer text-base${
+              className={`relative cursor-pointer text-base font-extralight ${
                 clickIntervention ? "" : ""
               }`}
               onClick={handleIntervention}
@@ -191,7 +191,7 @@ const Navbar = () => {
                     : "hidden"
                 }
               >
-                <li className="hover:bg-slate-50 py-2">
+                <li className="hover:bg-slate-50 py-2 mx-3">
                   <Link
                     to="/Healing"
                     onClick={handleHideSidebar}
@@ -203,7 +203,7 @@ const Navbar = () => {
                 {/* <li className='hover:bg-slate-50 py-2'>
                   <Link to="/Psycho_social_care" onClick={handleHideSidebar} className='my-4 mx-3'>Psycho-social Care</Link>
                 </li> */}
-                <li className="hover:bg-slate-50 py-2">
+                <li className="hover:bg-slate-50 py-2 mx-3">
                   <Link
                     to="/Asset_base_community"
                     onClick={handleHideSidebar}
@@ -212,7 +212,7 @@ const Navbar = () => {
                     Asset Base Community Development
                   </Link>
                 </li>
-                <li className="hover:bg-slate-50 py-2">
+                <li className="hover:bg-slate-50 py-2 mx-3">
                   <Link
                     to="/Active_by_standship"
                     onClick={handleHideSidebar}
@@ -254,17 +254,17 @@ const Navbar = () => {
                     : "hidden"
                 }
               >
-                <li className="hover:bg-slate-50 py-2">
+                <li className="hover:bg-slate-50 py-2 mx-3 font-extralight">
                   <Link to="" onClick={handleHideSidebar} className="my-4 mx-1">
                     News
                   </Link>
                 </li>
-                <li className="hover:bg-slate-50 py-2">
+                <li className="hover:bg-slate-50 py-2 mx-3 font-extralight">
                   <Link to="" onClick={handleHideSidebar} className="my-4 mx-1">
                     Stories
                   </Link>
                 </li>
-                <li className="hover:bg-slate-50 py-2">
+                <li className="hover:bg-slate-50 py-2 mx-3 font-extralight">
                   <Link to="" onClick={handleHideSidebar} className="my-4 mx-1">
                     Announcements
                   </Link>
@@ -288,12 +288,12 @@ const Navbar = () => {
                     : "hidden"
                 }
               >
-                <li className="py-1 px-2  bg-slate-100 hover:bg-white">
+                <li className="py-1 px-2  bg-slate-100 hover:bg-white mx-3 font-extralight">
                   <Link to="" onClick={handleHideSidebar}>
                     Volunteer
                   </Link>
                 </li>
-                <li className="py-2 px-2  bg-slate-100 hover:bg-white">
+                <li className="py-2 px-2  bg-slate-100 hover:bg-white mx-3 font-extralight">
                   <Link to="" onClick={handleHideSidebar}>
                     Internship Program
                   </Link>

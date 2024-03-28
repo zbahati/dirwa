@@ -12,7 +12,7 @@ export const president = [
     img: profile,
     name: 'Father, ATHANASE Gatanazi',
     title: 'Honorary President',
-    description: "Duhumurizanye Iwacu Rwanda (comfort each other in one’s neighbourhood) is a Rwandan non‐governmental organization, which implements community‐based sociotherapy in Bugesera District of the Eastern province of Rwanda, an area greatly affected by the 1994 genocide against the Tutsi. The NGO was created on January 14th 2011 by sociotherapy facilitators who had been trained in 2008 by Corra Dekker from the Netherlands. Because of the overwhelming number of requests of the participants already involved by then in sociotherapy to continue the program, DIR was established to continue the program on a voluntary basis. DIR was officially registered as an NGO in December 2012 by the Rwanda Governance Board under CT N⁰: 072/NGO/RGB/2012. The organization is governed by a Seven Member Board of Directors, which together with a team of seven full time staffs is responsible for the implementation of sociotherapy by the team of 140 sociotherapists.",
+    description: "Duhumurizanye Iwacu Rwanda is a Rwandan NGO that conducts community-based sociotherapy in Bugesera District, Rwanda, an area heavily affected by the 1994 genocide against the Tutsi. Founded on January 14, 2011, by facilitators trained in 2008 by Corra Dekker from the Netherlands, the NGO responds to the demand for continued sociotherapy from participants. Officially registered in December 2012, it operates under the Rwanda Governance Board. Governed by a Seven Member Board of Directors and employing seven full-time staff, the organization oversees a team of 140 sociotherapists.",
   }
 ];
 

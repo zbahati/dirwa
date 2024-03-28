@@ -18,11 +18,11 @@ const TeamBehind = () => {
             key={president.id}
             className="grid grid-cols-1 gap-4 md:grid-cols-2 rounded-md bg-black/5 p-10 shadow-md my-2"
           >
-            <div className=" w-2/3 text-center border-[1px] shadow-lg rounded-lg hover:scale-105 duration-300">
+            <div className=" w-2/3 text-center border-[1px] shadow-lg rounded-lg hover:scale-105 duration-100 ml-12">
               <img
                 src={president.img}
                 alt={president.name}
-                className="w-full md:h-80 object-cover rounded-lg"
+                className="w-full md:h-80 object-cover rounded-lg "
               />
               <h1 className="text-2xl font-bold py-2 text-gray-800">
                 {president.name}
