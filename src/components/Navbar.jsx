@@ -84,13 +84,18 @@ const Navbar = () => {
   return (
     <div>
       <header className="p-2 mx-auto">
-        <div className="flex justify-between items-center p-5">
-          <div className="flex gap-2 items-center">
+        <div className="flex justify-between items-center">
+          <div className="flex gap-2 items-center p-2 ml-5">
             <img src={logo} alt="logo" className="h-14 w-14" />
-            <h1 className="hidden md:text-1xl md:inline lg:text-3xl capitalize font-semibold text-blue-400">
-              Duhumurizanye Iwacu Rwanda
+            <h1 className="hidden md:text-1xl md:inline lg:text-3xl capitalize font-extralight text-blue-400">
+              <span className="font-bold text-2xl">Duhumurizanye </span>{" "}
+                <span className="font-bold text-2xl">Iwacu </span>
+                <span className="border-l-2 border-blue-400 pl-2">
+                <span className="text-4xl">Rwanda</span>{" "}
+              </span>
             </h1>
           </div>
+
           <button
             type="button"
             className="hidden sm:inline w-32 h-10 bg-blue-400 text-white text-1xl outline-none hover:bg-blue-300 cursor-pointer"
@@ -119,11 +124,11 @@ const Navbar = () => {
           <ul
             className={
               nav
-                ? "flex flex-col text-xl gap-10 h-screen absolute w-full duration-300 text-white px-10 pt-10 font-semibold top-0 bottom-0 left-0 bg-blue-400 z-20 rounded-md"
+                ? "flex flex-col text-xl gap-10 h-screen absolute w-full duration-300 text-white px-10 pt-10 top-0 bottom-0 left-0 bg-blue-400 z-20 rounded-md"
                 : "hidden sm:flex sm:justify-between sm:items-center bg-[#6daefd] md:py-2 text-white text-xl sm:border-2 sm:p-2"
             }
           >
-            <li className="cursor-pointer" onClick={handleAboutUs}>
+            <li className="cursor-pointer text-base" onClick={handleAboutUs}>
               <Link to="" className={clickAboutUs ? "" : ""}>
                 ABOUT US
               </Link>
@@ -131,7 +136,7 @@ const Navbar = () => {
             </li>
             <li
               onClick={handleParticipation}
-              className={`relative cursor-pointer ${
+              className={`relative cursor-pointer text-base${
                 clickParticipation ? "" : ""
               }`}
             >
@@ -172,7 +177,7 @@ const Navbar = () => {
               </ul>
             </li>
             <li
-              className={`relative cursor-pointer ${
+              className={`relative cursor-pointer text-base${
                 clickIntervention ? "" : ""
               }`}
               onClick={handleIntervention}
@@ -221,7 +226,10 @@ const Navbar = () => {
                 </li> */}
               </ul>
             </li>
-            <li onClick={handleWhereWeWork} className="cursor-pointer">
+            <li
+              onClick={handleWhereWeWork}
+              className="cursor-pointer text-base"
+            >
               <Link
                 to="/Where_we_work"
                 onClick={handleHideSidebar}
@@ -232,7 +240,9 @@ const Navbar = () => {
               <hr className="border-b border-blue-100 mt-1" />
             </li>
             <li
-              className={`cursor-pointer ${clickPublication ? "" : ""}`}
+              className={`cursor-pointer text-base ${
+                clickPublication ? "" : ""
+              }`}
               onClick={handlePublication}
             >
               <span>PUBLICATIONS</span>
@@ -262,7 +272,9 @@ const Navbar = () => {
               </ul>
             </li>
             <li
-              className={`relative cursor-pointer ${clickJoinUs ? "" : ""}`}
+              className={`relative cursor-pointer text-base ${
+                clickJoinUs ? "" : ""
+              }`}
               onClick={handleJoinUs}
             >
               <span>JOIN US</span>
