@@ -3,6 +3,7 @@ import LatestNews from "./LatestNews";
 import ShowCase from "./ShowCase";
 import TeamBehind from "./Teams";
 import Contact from "./contact";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <LatestNews />
       <TeamBehind />
       <Contact />
+      <Footer />
     </div>
   );
 }

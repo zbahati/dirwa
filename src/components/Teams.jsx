@@ -4,7 +4,7 @@ import { president } from "./TeamsData";
 const TeamBehind = () => {
   return (
     <div className="px-10 mx-auto ">
-      <h1 className="text-4xl mb-5 underline underline-offset-8 decoration-blue-400 font-semibold py-4 mt-5 text-center">
+      <h1 className="text-4xl mb-5 underline underline-offset-8 decoration-blue-100 font-semibold py-4 mt-5 text-center">
         Team Behind
       </h1>
       <div className="">
