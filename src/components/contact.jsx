@@ -7,7 +7,7 @@ const Contact = () => {
 
   return (
     <div className="">
-      <h1 className="text-3xl text-center mb-5 capitalize font-bold py-3 px-2 underline underline-offset-8 decoration-blue-400">
+      <h1 className="text-3xl text-center mb-5 capitalize font-bold py-3 px-2 underline underline-offset-8 decoration-blue-100">
         Contact us
       </h1>
       <div
