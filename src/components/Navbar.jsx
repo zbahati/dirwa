@@ -106,7 +106,7 @@ const Navbar = () => {
             <button
               type="button"
               onClick={handleHideSidebar}
-              className="absolute text-2xl text-white cursor-pointer z-30 top-0 right-2 pt-3"
+              className="absolute text-3xl text-white cursor-pointer z-30 top-0 right-3 pt-3"
             >
               <FaX />
             </button>
@@ -116,7 +116,7 @@ const Navbar = () => {
               onClick={handleToggleMenu}
               className="sm:hidden"
             >
-              <FaBars size={30} />
+              <FaBars size={30} className="mr-2 text-amber-950" />
             </button>
           )}
         </div>
