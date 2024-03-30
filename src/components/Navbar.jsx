@@ -116,7 +116,7 @@ const Navbar = () => {
               onClick={handleToggleMenu}
               className="sm:hidden"
             >
-              <FaBars size={36} className="mr-2 text-[#0072bc] border-none border-radius" />
+              <FaBars size={33} className="mr-2 text-[#0072bc] border-none border-radius" />
             </button>
           )}
         </div>
