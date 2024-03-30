@@ -1,28 +1,38 @@
+/* eslint-disable react/prop-types */
 import { useEffect, useState } from "react";
 
 const IntervationReusableComponent = ({ title, imgSrc, listItems }) => {
-  const [Image, setImange] = useState(false);
+  const [showImage, setShowImage] = useState(!!imgSrc);
+
   useEffect(() => {
-    if (imgSrc) {
-      setImange(true)
-    }
+    setShowImage(!!imgSrc);
   }, [imgSrc]);
 
   return (
-    <div className="p-2 mx-auto">
-      <h1 className="md:text-center text-2xl md:mt-2 font-bold md:text-5xl">{title}</h1>
-      <div className='w-full flex flex-col xl:flex-row gap-2 mt-4'>
-        <div className={Image ? `mt-2 xl:px-4 xl:w-1/2 flex items-center mx-auto` : 'hidden'}>
-          <img src={imgSrc} alt={title} />
-        </div>
-        <ul className={`mx-auto ${Image ? 'w-1/2' : 'w-[90%]'} px-4 md:px-0 text-justify list-disc text-xl md:flex flex-col gap-3 mt-4`}>
+    <div>
+      <h1 className="p-4 bg-[#6daefd] text-white font-semibold text-xl md:text-5xl">
+        {title}
+      </h1>
+      <div className="w-full flex flex-col xl:flex-row gap-2 bg-[#dee1e4] pl-1">
+        {showImage && (
+          <div className="xl:px-4 xl:w-1/2 flex items-center mx-auto">
+            <img src={imgSrc} alt={title} />
+          </div>
+        )}
+        <ul
+          className={`mx-auto ml-10 ${
+            showImage ? "w-1/2" : "w-[90%]"
+          } px-4 md:px-0 text-start  md:flex flex-col gap-3 mt-4 list-none font-thin  ml-10 mb-2`}
+        >
           {listItems.map((item, index) => (
-            <li key={index} className="pt-2">{item}</li>
+            <li key={index}>
+              {item}
+            </li>
           ))}
         </ul>
       </div>
-    </div >
+    </div>
   );
-}
+};
 
 export default IntervationReusableComponent;

@@ -83,7 +83,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <header className="p-2 mx-auto">
+      <header className="mx-auto">
         <div className="flex justify-between items-center">
           <div className="flex gap-2 items-center p-2 ml-5">
             <img src={logo} alt="logo" className="h-14 w-14" />
@@ -125,7 +125,7 @@ const Navbar = () => {
             className={
               nav
                 ? "flex flex-col text-xl gap-10 h-screen absolute w-full duration-300 text-white px-10 pt-10 top-0 bottom-0 left-0 bg-blue-400 z-20 rounded-md"
-                : "hidden sm:flex sm:justify-between sm:items-center bg-[#6daefd] md:py-2 text-white text-xl sm:border-2 sm:p-2"
+                : "hidden sm:flex sm:justify-between sm:items-center bg-[#6daefd] md:py-2 text-white text-xl border-b-8 sm:p-2"
             }
           >
             <li className="cursor-pointer text-base" onClick={handleAboutUs}>
