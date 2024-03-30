@@ -3,7 +3,7 @@ import Teams from "./NormalTeams";
 import { president } from "./TeamsData";
 const TeamBehind = () => {
   return (
-    <div className="px-10 mx-auto ">
+    <div className="px-5">
       <h1 className="text-4xl mb-5 underline underline-offset-8 decoration-blue-100 font-semibold py-4 mt-5 text-center">
         Team Behind
       </h1>
@@ -18,7 +18,7 @@ const TeamBehind = () => {
             key={president.id}
             className="grid grid-cols-1 gap-4 md:grid-cols-2 rounded-md bg-black/5 p-10 shadow-md my-2"
           >
-            <div className=" w-2/3 text-center border-[1px] shadow-lg rounded-lg hover:scale-105 duration-100 ml-12">
+            <div className=" w-2/3 text-center border-[1px] shadow-lg rounded-lg hover:scale-105 duration-100 mx-auto">
               <img
                 src={president.img}
                 alt={president.name}
