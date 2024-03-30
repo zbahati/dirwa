@@ -20,9 +20,9 @@ const IntervationReusableComponent = ({ title, imgSrc, listItems }) => {
           </div>
         )}
         <ul
-          className={`mx-auto ml-10 ${
-            showImage ? "w-1/2" : "w-[90%]"
-          } px-4 md:px-0 text-start  md:flex flex-col gap-3 mt-4 list-none font-thin  ml-10 mb-2`}
+          className={`mx-auto ml-2 ${
+            showImage ? "w-2/2" : "w-[90%]"
+          } px-4 md:px-0 text-justify  md:flex flex-col gap-3 mt-4 list-none font-thin mb-2`}
         >
           {listItems.map((item, index) => (
             <li key={index}>
