@@ -226,15 +226,8 @@ const Navbar = () => {
                 </li> */}
               </ul>
             </li>
-            <li
-              onClick={handleWhereWeWork}
-              className="cursor-pointer text-base"
-            >
-              <Link
-                to="/Where_we_work"
-                onClick={handleHideSidebar}
-                className={clickWhereWeWork ? "" : ""}
-              >
+            <li className="cursor-pointer text-base" onClick={handleWhereWeWork}>
+              <Link to="/Where_we_work" className={clickAboutUs ? "" : ""}>
                 WHERE WE WORK
               </Link>
               <hr className="border-b border-blue-100 mt-1" />

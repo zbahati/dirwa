@@ -4,6 +4,7 @@ import Home from "./components/Home"
 import Healling from "./components/pages/Healling"
 import Asset from "./components/pages/Asset"
 import StandShip from './components/pages/StandshipDevelopment'
+import WhereWeWork from "./components/pages/WhereWeWork"
 
 
 
@@ -16,6 +17,7 @@ function App() {
         <Route path="/Healing" element={<Healling />} />
         <Route path="/Asset_base_community" element={<Asset />} />
         <Route path="/Active_by_standship" element={<StandShip />} />
+        <Route path="/Where_we_work" element={<WhereWeWork />} />
       </Routes>
     </BrowserRouter>
   )
