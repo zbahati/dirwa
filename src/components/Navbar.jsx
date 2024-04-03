@@ -248,15 +248,11 @@ const Navbar = () => {
                 }
               >
                 <li className="hover:bg-slate-50 py-2 mx-3 font-extralight">
-                  <Link to="" onClick={handleHideSidebar} className="my-4 mx-1">
-                    News
+                  <Link to="/News_and_stories" onClick={handleHideSidebar} className="my-4 mx-1">
+                    News & Stories
                   </Link>
                 </li>
-                <li className="hover:bg-slate-50 py-2 mx-3 font-extralight">
-                  <Link to="" onClick={handleHideSidebar} className="my-4 mx-1">
-                    Stories
-                  </Link>
-                </li>
+                
                 <li className="hover:bg-slate-50 py-2 mx-3 font-extralight">
                   <Link to="" onClick={handleHideSidebar} className="my-4 mx-1">
                     Announcements
