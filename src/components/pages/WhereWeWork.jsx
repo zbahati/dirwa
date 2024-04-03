@@ -14,7 +14,7 @@ const WhereWeWork = () => {
       <IntervationReusableComponent {...WhereWeWorkData} />
       <div className="mx-5 my-10 py-5">
         <h1 className="font-bold ">Kigali Province</h1>
-        <p className="mx-10 mt-8 text-base mb-8 text-justify">
+        <p className="mt-8 text-base mb-8 text-justify">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
           architecto aperiam nesciunt esse quam et fugiat maxime dolorem.
           Excepturi, vero. Totam velit nesciunt sit sequi in sunt deserunt
@@ -28,7 +28,7 @@ const WhereWeWork = () => {
         </p>
 
         <h1 className="font-bold ">Eastern Province</h1>
-        <p className="mx-10 mt-8 text-base mb-8 text-justify">
+        <p className="mt-8 text-base mb-8 text-justify">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
           architecto aperiam nesciunt esse quam et fugiat maxime dolorem.
           Excepturi, vero. Totam velit nesciunt sit sequi in sunt deserunt
@@ -41,7 +41,7 @@ const WhereWeWork = () => {
           
         </p>
         <h1 className="font-bold ">Southern Province</h1>
-        <p className="mx-10 mt-8 text-base mb-8 text-justify">
+        <p className=" mt-8 text-base mb-8 text-justify">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
           architecto aperiam nesciunt esse quam et fugiat maxime dolorem.
           Excepturi, vero. Totam velit nesciunt sit sequi in sunt deserunt
@@ -55,7 +55,7 @@ const WhereWeWork = () => {
         </p>
 
         <h1 className="font-bold ">Western Province</h1>
-        <p className="mx-10 mt-8 text-base mb-8 text-justify">
+        <p className=" mt-8 text-base mb-8 text-justify">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
           architecto aperiam nesciunt esse quam et fugiat maxime dolorem.
           Excepturi, vero. Totam velit nesciunt sit sequi in sunt deserunt

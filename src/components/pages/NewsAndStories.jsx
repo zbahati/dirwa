@@ -61,7 +61,7 @@ const LatestNews = () => {
       <h2 className="text-4xl my-5 text-start sm:4xl md:5xl lg:6xl mx-2">Latest News</h2>
       <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-3 md:grid-cols-3 lg:gap-5 lg:grid-cols-3 mb-10 mx-2">
         {NewsAndStories.map((story) => (
-          <Link key={story.id} to="" className="sm:min-h-72 px-2 shadow-md rounded-sm shadow-blue-200 py-2 hover:scale-105">
+          <Link key={story.id} to="" className="sm:min-h-72 px-2 shadow-md rounded-sm shadow-blue-200 py-2">
             <img src={story.img} alt={story.title} className="sm:h-52 w-full object-cover py-1 rounded-lg" />
             <h1 className="text-2xl text-blue-500 font-mono">{story.title}</h1>
             <p className="text-md underline underline-offset-4 decoration-blue-400 py-2">{story.description.length > 50 ? story.description.slice(0, 50) + '...' : story.description}</p>
