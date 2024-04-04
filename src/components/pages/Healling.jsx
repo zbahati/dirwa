@@ -21,7 +21,7 @@ const Healling = () => {
     <>
       <IntervationReusableComponent {...HeallingData} />
       <div>
-        <p className="mx-10 mt-8 text-base mb-8">
+        <p className="mx-8 mt-8 text-base mb-8 text-justify">
           If you are interested in donating cash, clothing, shoes, or other
           items for refugees living in Rwanda, please contact our Kigali Office
           at +250 (0) 252-589-822 or email the Dirwa Rwanda Operation External

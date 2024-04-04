@@ -8,8 +8,6 @@ import WhereWeWork from "./components/pages/WhereWeWork"
 import NewsAndStories from "./components/pages/NewsAndStories"
 import Announcements from "./components/pages/Announcements"
 
-
-
 function App() {
   return (
     <BrowserRouter>

@@ -106,7 +106,7 @@ const Navbar = () => {
             <button
               type="button"
               onClick={handleHideSidebar}
-              className="absolute text-3xl text-white cursor-pointer z-30 top-0 right-3 pt-3"
+              className="absolute text-3xl text-white cursor-pointer z-30 top-0 right-3 pt-5 mr-3"
             >
               <FaX />
             </button>
@@ -124,7 +124,7 @@ const Navbar = () => {
           <ul
             className={
               nav
-                ? "flex flex-col text-xl gap-10 h-screen absolute w-full duration-300 text-white px-10 pt-10 top-0 bottom-0 left-0 bg-blue-400 z-20 rounded-md"
+                ? "flex flex-col text-xl gap-10 h-screen absolute w-full duration-1000 text-white px-10 justify-center top-0 bottom-0 left-0 backdrop-blur-md bg-slate-600 z-20"
                 : "hidden sm:flex sm:justify-between sm:items-center bg-[#6daefd] md:py-2 text-white text-xl border-b-8 sm:p-2"
             }
           >
