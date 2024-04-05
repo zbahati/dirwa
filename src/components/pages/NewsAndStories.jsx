@@ -58,6 +58,12 @@ const LatestNews = () => {
         <h1 className="p-4 bg-[#6daefd] text-white font-semibold text-xl md:text-5xl">
         Latest News & Stories
       </h1>
+    <div />
+    <div>
+        <h6 className="text-xs px-2 py-1">
+          <a href="/">Home <i className="fas fa-chevron-right text-[10px]"></i> Latest News & Stories</a>
+        </h6>
+      </div>
       <h2 className="text-4xl my-5 text-start sm:4xl md:5xl lg:6xl mx-2">Latest News</h2>
       <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-3 md:grid-cols-3 lg:gap-5 lg:grid-cols-3 mb-10 mx-2">
         {NewsAndStories.map((story) => (

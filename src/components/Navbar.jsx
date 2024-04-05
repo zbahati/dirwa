@@ -149,28 +149,28 @@ const Navbar = () => {
                     : "hidden"
                 }
               >
-                <li className="py-2">
-                  <Link to="" onClick={handleHideSidebar} className="mx-3">
+                <li className="py-2 hover:bg-slate-50">
+                  <Link to="/Youth" onClick={handleHideSidebar} className="mx-3">
                     Youth
                   </Link>
                 </li>
                 <li className="hover:bg-slate-50 py-2 text-black">
-                  <Link to="" onClick={handleHideSidebar} className="my-4 mx-3">
+                  <Link to="/Women" onClick={handleHideSidebar} className="my-4 mx-3">
                     Women
                   </Link>
                 </li>
                 <li className="hover:bg-slate-50 py-2">
-                  <Link to="" onClick={handleHideSidebar} className="my-4 mx-3">
+                  <Link to="/Conflict" onClick={handleHideSidebar} className="my-4 mx-3">
                     Conflict families
                   </Link>
                 </li>
                 <li className="hover:bg-slate-50 py-2">
-                  <Link to="" onClick={handleHideSidebar} className="my-4 mx-3">
+                  <Link to="/Refugees" onClick={handleHideSidebar} className="my-4 mx-3">
                     Refugees
                   </Link>
                 </li>
                 <li className="hover:bg-slate-50 py-2">
-                  <Link to="" onClick={handleHideSidebar} className="my-4 mx-3">
+                  <Link to="/Community" onClick={handleHideSidebar} className="my-4 mx-3">
                     Community leaders
                   </Link>
                 </li>
@@ -187,11 +187,11 @@ const Navbar = () => {
               <ul
                 className={
                   clickIntervention
-                    ? " bg-slate-100 hover:bg-slate-200 w-64 absolute py-4 my-4 z-10 underline underline-offset-8 text-black border-2"
+                    ? " bg-slate-100 hover:bg-slate-200 w-64 absolute py-2 my-4 z-10 underline underline-offset-8 text-black border-2 font-extralight"
                     : "hidden"
                 }
               >
-                <li className="hover:bg-slate-50 py-2 mx-3">
+                <li className="hover:bg-slate-50 py-2 px-3">
                   <Link
                     to="/Healing"
                     onClick={handleHideSidebar}
@@ -203,16 +203,16 @@ const Navbar = () => {
                 {/* <li className='hover:bg-slate-50 py-2'>
                   <Link to="/Psycho_social_care" onClick={handleHideSidebar} className='my-4 mx-3'>Psycho-social Care</Link>
                 </li> */}
-                <li className="hover:bg-slate-50 py-2 mx-3">
+                <li className="hover:bg-slate-50 py-2 px-3">
                   <Link
                     to="/Asset_base_community"
                     onClick={handleHideSidebar}
-                    className="my-4"
+                    className="my-4 "
                   >
                     Asset Base Community Development
                   </Link>
                 </li>
-                <li className="hover:bg-slate-50 py-2 mx-3">
+                <li className="hover:bg-slate-50 py-2 px-3">
                   <Link
                     to="/Active_by_standship"
                     onClick={handleHideSidebar}
@@ -247,13 +247,13 @@ const Navbar = () => {
                     : "hidden"
                 }
               >
-                <li className="hover:bg-slate-50 py-2 mx-3 font-extralight">
+                <li className="hover:bg-slate-50 py-2 px-3 font-extralight">
                   <Link to="/News_and_stories" onClick={handleHideSidebar} className="my-4 mx-1">
                     News & Stories
                   </Link>
                 </li>
                 
-                <li className="hover:bg-slate-50 py-2 mx-3 font-extralight">
+                <li className="hover:bg-slate-50 py-2 px-3 font-extralight">
                   <Link to="/Announcements" onClick={handleHideSidebar} className="my-4 mx-1">
                     Announcements
                   </Link>
@@ -277,12 +277,12 @@ const Navbar = () => {
                     : "hidden"
                 }
               >
-                <li className="py-1 px-2  bg-slate-100 hover:bg-white mx-3 font-extralight">
-                  <Link to="" onClick={handleHideSidebar}>
+                <li className="py-2 px-3  bg-slate-100 hover:bg-white  font-extralight">
+                  <Link to="/Volunteer" onClick={handleHideSidebar}>
                     Volunteer
                   </Link>
                 </li>
-                <li className="py-2 px-2  bg-slate-100 hover:bg-white mx-3 font-extralight ">
+                <li className="py-2 px-3  bg-slate-100 hover:bg-white font-extralight ">
                   <Link to="" onClick={handleHideSidebar}>
                     Internship Program
                   </Link>

@@ -6,7 +6,14 @@ import Asset from "./components/pages/Asset"
 import StandShip from './components/pages/StandshipDevelopment'
 import WhereWeWork from "./components/pages/WhereWeWork"
 import NewsAndStories from "./components/pages/NewsAndStories"
+import Youth from "./components/pages/Youth"
+import Women from "./components/pages/Women"
 import Announcements from "./components/pages/Announcements"
+import ConflictFamilies from "./components/pages/ConflictFamilies"
+import Refugees from "./components/pages/Refugees"
+import CommunityLeaders from "./components/pages/CommunityLeaders"
+import '@fortawesome/fontawesome-free/css/all.css';
+import Volunteer from "./components/pages/Volunteer"
 
 function App() {
   return (
@@ -19,7 +26,13 @@ function App() {
         <Route path="/Active_by_standship" element={<StandShip />} />
         <Route path="/Where_we_work" element={<WhereWeWork />} />
         <Route path="/News_and_stories" element={<NewsAndStories />} />
+        <Route path="/Youth" element={<Youth />} />
+        <Route path="/Women" element={<Women />} />
+        <Route path="/Conflict" element={<ConflictFamilies />} />
+        <Route path="/Refugees" element={<Refugees/>} />
+        <Route path="/Community" element={<CommunityLeaders/>} />
         <Route path="/Announcements" element={<Announcements />} />
+        <Route path="/Volunteer" element={<Volunteer />} />
       </Routes>
     </BrowserRouter>
   )
