@@ -283,7 +283,7 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="py-2 px-3  bg-slate-100 hover:bg-white font-extralight ">
-                  <Link to="" onClick={handleHideSidebar}>
+                  <Link to="/Internship" onClick={handleHideSidebar}>
                     Internship Program
                   </Link>
                 </li>

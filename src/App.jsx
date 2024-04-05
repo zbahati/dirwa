@@ -12,8 +12,9 @@ import Announcements from "./components/pages/Announcements"
 import ConflictFamilies from "./components/pages/ConflictFamilies"
 import Refugees from "./components/pages/Refugees"
 import CommunityLeaders from "./components/pages/CommunityLeaders"
-import '@fortawesome/fontawesome-free/css/all.css';
 import Volunteer from "./components/pages/Volunteer"
+import InternshipProgram from "./components/pages/InternshipProgram"
+import '@fortawesome/fontawesome-free/css/all.css';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Route path="/Community" element={<CommunityLeaders/>} />
         <Route path="/Announcements" element={<Announcements />} />
         <Route path="/Volunteer" element={<Volunteer />} />
+        <Route path="/Internship" element={<InternshipProgram />} />
       </Routes>
     </BrowserRouter>
   )
