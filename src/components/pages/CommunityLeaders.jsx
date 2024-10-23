@@ -1,25 +1,40 @@
+import IntervationReusableComponent from "./InterventionReusableComponent";
+import Igisoro from "../../assets/meeting.jpg";
+import Footer from "../Footer";
 
 const CommunityLeaders = () => {
+  const CommunityLeadersData = {
+    title: "Community Leaders",
+    imgSrc: Igisoro,
+    listItems: [
+      "What does it mean to be a leader in a community?",
+    ],
+  };
   return (
     <div>
-      <div className="p-4 bg-[#6daefd] text-white font-semibold text-xl md:text-5xl">
-        <h1 className="">Community Leaders</h1>
+      <div className="mb-5">
+        <IntervationReusableComponent {...CommunityLeadersData} />
       </div>
-      <div>
-        <h6 className="text-xs px-2 py-1">
-          <a href="/">Home <i className="fas fa-chevron-right text-[10px]"></i> Community Leaders</a>
-        </h6>
+      <div className="my-5 mx-5 text-justify">
+        <div className="my-3">
+          <p className="mx-2">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam
+            tempora molestias dolor perferendis magnam, deleniti temporibus
+            culpa animi aspernatur necessitatibus ipsam amet fugit officia
+            doloribus incidunt harum dicta expedita.
+          </p>
+        </div>
+
+        <div className="mb-5">
+          <p className="mx-2">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam
+            tempora molestias dolor perferendis magnam, deleniti temporibus
+            culpa animi aspernatur necessitatibus ipsam amet fugit officia
+            doloribus incidunt harum dicta expedita.
+          </p>
+        </div>
       </div>
-      <div>
-        <h2 className="text-4xl my-5 text-start sm:4xl md:5xl lg:6xl px-2">
-          Community Leaders
-        </h2>
-      </div>
-      <div>
-        <h1 className="text-2xl bg-red-500 py-5 text-center">
-          coming soon, stay tuned!!!
-        </h1>
-      </div>
+      <Footer />
     </div>
   );
 };
